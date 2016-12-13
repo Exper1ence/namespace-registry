@@ -1,5 +1,6 @@
 # namespace-registry
 A javascript library to implement namespacing.
+
 usage:
 
 const namespace = require('namespace-registry');
