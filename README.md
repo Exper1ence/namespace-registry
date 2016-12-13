@@ -1,5 +1,5 @@
 <h1>namespace-registry</h1>
-<h3>A javascript library to implement namespacing.</h3>
+<h3>A javascript module to implement namespacing.</h3>
 
 <h1>require:</h1>
 <h3>ES6</h3>
