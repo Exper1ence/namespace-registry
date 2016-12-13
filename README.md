@@ -1,5 +1,4 @@
-
-# SYNOPSIS
+# namespace-registry
 
 namespace-registry is a javascript module provides namespacing.
 
