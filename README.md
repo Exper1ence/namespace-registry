@@ -3,7 +3,7 @@
 
 namespace-registry is a javascript module provides namespacing.
 
-# REQUIRE
+# REQUIREMENT
 
 ###*ES6*
 
