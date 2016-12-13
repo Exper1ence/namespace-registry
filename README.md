@@ -5,7 +5,7 @@ usage:
 
 const namespace = require('namespace-registry');
 
-namespace.register('test', {a: 1, b: 2});
+namespace.register({test: {a: 1, b: 2}});
 
 module.exports = namespace.using('test', ({a, b}) => {
     console.log(a);
