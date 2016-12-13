@@ -10,7 +10,7 @@ namespace-registry is a javascript module provides namespacing.
 # USAGE
 
 ```javascript
-    const namespace = require('namespace-registry');
+    global.n = require('namespace-registry');
     
     namespace.register({
         test: {a: 1},
