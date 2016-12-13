@@ -1,6 +1,6 @@
 {
   "name": "namespace-registry",
-  "version": "0.2.5",
+  "version": "0.2.6",
   "dependencies": {
     "lodash": "^4.17.2"
   }
