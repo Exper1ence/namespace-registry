@@ -1,4 +1,4 @@
-<h1>namespace-registry v0.1.1</h1>
+<h1>namespace-registry v0.1.2</h1>
 
 <h1>require:</h1>
 <h3>ES6</h3>
