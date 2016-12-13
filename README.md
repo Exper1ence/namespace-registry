@@ -2,7 +2,7 @@
 <h3>A javascript library to implement namespacing.</h3>
 
 <h1>require:</h1>
-<p><font size="10"><b>ES6</b></font><p>
+<h3>ES6</h3>
 <h1>usage:</h1>
 <pre><code>
 const namespace = require('namespace-registry');
