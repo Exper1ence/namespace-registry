@@ -13,12 +13,11 @@ const n = function () {
 };
 
 n.register = (obj) => {
-    if (_.isPlainObject(obj)) {
-        _.forOwn(obj, (value, key) => {
-            if (namespaceObject[key])throw new Error(`the key '${key}' has already be registered.`);
-            namespaceObject[key] = value;
-        })
-    }
+    if (!_.isPlainObject(obj))throw new TypeError('the first argument must be a plain object');
+    _.forOwn(obj, (value, key) => {
+        if (namespaceObject[key])throw new Error(`the key '${key}' has already be registered.`);
+        namespaceObject[key] = value;
+    });
 };
 
 module.exports = n;
