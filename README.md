@@ -1,5 +1,5 @@
 # namespace-registry
-A javascript library to implement namespacing.
+<h1>A javascript library to implement namespacing.<h1>
 
 usage:
 
